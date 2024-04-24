@@ -24,8 +24,7 @@ export default {
   methods: {
     handleSignUp(message) {
       console.log(message);
-      // place your action logic here
-      //const handleSignUp = (response) => {};
+      //Aqui es donde introduciremos el apartado de tener registrado el token en la aplicacion
     },
   },
 };

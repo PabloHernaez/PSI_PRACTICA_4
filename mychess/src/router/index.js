@@ -33,6 +33,11 @@ const router = createRouter({
       name: "logIn",
 
       component: () => import("../views/SignUpView.vue"),
+    },
+    {
+      path: "/create-game",
+      name: "createGame",
+      component: () => import("../views/CreateGameView.vue"),
     } /*
     {
       path: "log-out",
